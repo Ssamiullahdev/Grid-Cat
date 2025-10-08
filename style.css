@@ -1,0 +1,1002 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-purple: #fab4e9;
+    --color-orange: #F58F26;
+    --color-dark-orange: #A35F25;
+    --color-white: #ffffff;
+    --color-yellow: #EDEB4B;
+    --color-black: #000000;
+    --color-bgc: #F7D796;
+
+}
+body {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: blue;
+    color: var(--color-white);
+    width: 700px;
+    
+}
+
+/* .container  > div {
+
+} */
+
+.firstline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.secoundline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+
+.thirdline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.thirdline >div.item-17 {
+   background-color: var(--color-black);
+   
+}
+
+
+.forthline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.forthline >div.item-16{
+    background-color: var(--color-black);
+}
+.forthline >div.item-18{
+    background-color: var(--color-black);
+}
+.forthline >div.item-17{
+    background-color: var(--color-yellow);
+}
+
+
+.fifthline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.fifthline >div.item-15{
+    background-color: var(--color-black);
+}
+.fifthline >div.item-16{
+    background-color: var(--color-yellow);
+}
+.fifthline >div.item-17{
+    background-color: var(--color-yellow);
+}
+.fifthline >div.item-18{
+    background-color: var(--color-yellow);
+}
+.fifthline >div.item-19{
+    background-color: var(--color-black);
+}
+
+
+.sixline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.sixline >div.item-14{
+    background-color: var(--color-black);
+}
+.sixline >div.item-15{
+    background-color: var(--color-black);
+}
+.sixline >div.item-16{
+    background-color: var(--color-yellow);
+}
+.sixline >div.item-17{
+    background-color: var(--color-yellow);
+}
+.sixline >div.item-18{
+    background-color: var(--color-yellow);
+}
+.sixline >div.item-19{
+    background-color: var(--color-black);
+}
+
+
+.sevenline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.sevenline >div.item-13{
+    background-color: var(--color-black);
+}
+.sevenline >div.item-14{
+    background-color: var(--color-yellow);
+}
+.sevenline >div.item-15{
+    background-color: var(--color-black);
+}
+.sevenline >div.item-16{
+    background-color: var(--color-yellow);
+}
+.sevenline >div.item-17{
+    background-color: var(--color-yellow);
+}
+.sevenline >div.item-18{
+    background-color: var(--color-yellow);
+}
+.sevenline >div.item-19{
+    background-color: var(--color-black);
+}
+.sevenline >div.item-28{
+    background-color: var(--color-black);
+}
+.sevenline >div.item-29{
+    background-color: var(--color-black);
+}
+.sevenline >div.item-30{
+    background-color: var(--color-black);
+}
+.sevenline >div.item-31{
+    background-color: var(--color-black);
+}
+
+
+.eightline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.eightline >div.item-13{
+    background-color: var(--color-black);
+}
+.eightline >div.item-14{
+    background-color: var(--color-yellow);
+}
+.eightline >div.item-15{
+    background-color: var(--color-yellow);
+}
+.eightline >div.item-16{
+    background-color: var(--color-black);
+}
+.eightline >div.item-17{
+    background-color: var(--color-black);
+}
+.eightline >div.item-18{
+    background-color: var(--color-black);
+}
+.eightline >div.item-25{
+    background-color: var(--color-black);
+}
+.eightline >div.item-26{
+    background-color: var(--color-black);
+}
+.eightline >div.item-27{
+    background-color: var(--color-black);
+}
+.eightline >div.item-28{
+    background-color: var(--color-orange);
+}
+.eightline >div.item-29{
+    background-color: var(--color-orange);
+}
+.eightline >div.item-30{
+    background-color: var(--color-orange);
+}
+.eightline >div.item-31{
+    background-color: var(--color-orange);
+}
+.eightline >div.item-32{
+    background-color: var(--color-black);
+}
+.eightline >div.item-33{
+    background-color: var(--color-black);
+}
+
+
+.nineline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.nineline >div.item-14{
+    background-color: var(--color-black);
+}
+.nineline >div.item-15{
+    background-color: var(--color-black);
+}
+.nineline >div.item-16{
+    background-color: var(--color-dark-orange);
+}
+.nineline >div.item-17{
+    background-color: var(--color-dark-orange);
+}
+.nineline >div.item-18{
+    background-color: var(--color-black);
+}
+.nineline >div.item-24{
+    background-color: var(--color-black);
+}
+.nineline >div.item-25{
+    background-color: var(--color-orange);
+}
+.nineline >div.item-26{
+    background-color: var(--color-orange);
+}
+.nineline >div.item-27{
+    background-color: var(--color-orange);
+}
+.nineline >div.item-28{
+    background-color: var(--color-orange);
+}
+.nineline >div.item-29{
+    background-color: var(--color-orange);
+}
+.nineline >div.item-30{
+    background-color: var(--color-orange);
+}
+.nineline >div.item-31{
+    background-color: var(--color-orange);
+}
+.nineline >div.item-32{
+    background-color: var(--color-orange);
+}
+.nineline >div.item-33{
+    background-color: var(--color-orange);
+}
+.nineline >div.item-34{
+    background-color: var(--color-black);
+}
+.nineline >div.item-35{
+    background-color: var(--color-black);
+}
+
+
+.tenthline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.tenthline >div.item-15{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-16{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-17{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-19{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-20{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-21{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-22{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-23{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-24{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-25{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-26{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-27{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-28{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-29{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-30{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-31{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-32{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-33{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-34{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-35{
+    background-color: var(--color-orange);
+}
+.tenthline >div.item-36{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-37{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-38{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-39{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-40{
+    background-color: var(--color-black);
+}
+.tenthline >div.item-41{
+    background-color: var(--color-black);
+}
+
+
+.ellevenline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.ellevenline >div.item-18{
+    background-color: var(--color-black);
+}
+.ellevenline >div.item-19{
+    background-color: var(--color-black);
+}
+.ellevenline >div.item-20{
+    background-color: var(--color-black);
+}
+.ellevenline >div.item-21{
+    background-color: var(--color-white);
+}
+.ellevenline >div.item-22{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-23{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-24{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-25{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-26{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-27{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-28{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-29{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-30{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-31{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-32{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-33{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-34{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-35{
+    background-color: var(--color-orange);
+}
+.ellevenline >div.item-36{
+    background-color: var(--color-dark-orange);
+}
+.ellevenline >div.item-37{
+    background-color: var(--color-dark-orange);
+}
+.ellevenline >div.item-38{
+    background-color: var(--color-dark-orange);
+}
+.ellevenline >div.item-39{
+    background-color: var(--color-dark-orange);
+}
+.ellevenline >div.item-40{
+    background-color: var(--color-dark-orange);
+}
+.ellevenline >div.item-41{
+    background-color: var(--color-dark-orange);
+}
+.ellevenline >div.item-42{
+    background-color: var(--color-dark-orange);
+}
+.ellevenline >div.item-42{
+    background-color: var(--color-black);
+}
+
+
+.twelveline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.twelveline >div.item-18{
+    background-color: var(--color-black);
+}
+.twelveline >div.item-19{
+    background-color: var(--color-black);
+}
+.twelveline >div.item-20{
+    background-color: var(--color-white);
+}
+.twelveline >div.item-21{
+    background-color: var(--color-white);
+}
+.twelveline >div.item-22{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-23{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-24{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-25{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-26{
+    background-color: var(--color-black);
+}
+.twelveline >div.item-27{
+    background-color: var(--color-black);
+}
+.twelveline >div.item-28{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-29{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-30{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-31{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-32{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-33{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-34{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-35{
+    background-color: var(--color-orange);
+}
+.twelveline >div.item-36{
+    background-color: var(--color-dark-orange);
+}
+.twelveline >div.item-37{
+    background-color: var(--color-dark-orange);
+}
+.twelveline >div.item-38{
+    background-color: var(--color-white);
+}
+.twelveline >div.item-39{
+    background-color: var(--color-white);
+}
+.twelveline >div.item-40{
+    background-color: var(--color-white);
+}
+.twelveline >div.item-41{
+    background-color: var(--color-dark-orange);
+}
+.twelveline >div.item-42{
+    background-color: var(--color-dark-orange);
+}
+.twelveline >div.item-42{
+    background-color: var(--color-black);
+}
+
+.thiteenline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.thiteenline >div.item-18{
+    background-color: var(--color-black);
+}
+.thiteenline >div.item-19{
+    background-color: var(--color-white);
+}
+.thiteenline >div.item-20{
+    background-color: var(--color-white);
+}
+.thiteenline >div.item-21{
+    background-color: var(--color-white);
+}
+.thiteenline >div.item-22{
+    background-color: var(--color-white);
+}
+.thiteenline >div.item-23{
+    background-color: var(--color-white);
+}
+.thiteenline >div.item-24{
+    background-color: var(--color-orange);
+}
+.thiteenline >div.item-25{
+    background-color: var(--color-orange);
+}
+.thiteenline >div.item-26{
+    background-color: var(--color-orange);
+}
+.thiteenline >div.item-27{
+    background-color: var(--color-orange);
+}
+.thiteenline >div.item-28{
+    background-color: var(--color-black);
+}
+.thiteenline >div.item-29{
+    background-color: var(--color-orange);
+}
+.thiteenline >div.item-30{
+    background-color: var(--color-orange);
+}
+.thiteenline >div.item-31{
+    background-color: var(--color-orange);
+}
+.thiteenline >div.item-32{
+    background-color: var(--color-orange);
+}
+.thiteenline >div.item-33{
+    background-color: var(--color-orange);
+}
+.thiteenline >div.item-34{
+    background-color: var(--color-orange);
+}
+.thiteenline >div.item-35{
+    background-color: var(--color-orange);
+}
+.thiteenline >div.item-36{
+    background-color: var(--color-white);
+}
+.thiteenline >div.item-37{
+    background-color: var(--color-white);
+}
+.thiteenline >div.item-38{
+    background-color: var(--color-white);
+}
+.thiteenline >div.item-39{
+    background-color: var(--color-white);
+}
+.thiteenline >div.item-40{
+    background-color: var(--color-white);
+}
+.thiteenline >div.item-41{
+    background-color: var(--color-dark-orange);
+}
+.thiteenline >div.item-42{
+    background-color: var(--color-black);
+}
+
+.forteenline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.forteenline >div.item-18{
+    background-color: var(--color-black);
+}
+.forteenline >div.item-19{
+    background-color: var(--color-white);
+}
+.forteenline >div.item-20{
+    background-color: var(--color-white);
+}
+.forteenline >div.item-21{
+    background-color: var(--color-white);
+}
+.forteenline >div.item-22{
+    background-color: var(--color-white);
+}
+.forteenline >div.item-23{
+    background-color: var(--color-white);
+}
+.forteenline >div.item-24{
+    background-color: var(--color-white);
+}
+.forteenline >div.item-25{
+    background-color: var(--color-white);
+}
+.forteenline >div.item-26{
+    background-color: var(--color-orange);
+}
+.forteenline >div.item-27{
+    background-color: var(--color-orange);
+}
+.forteenline >div.item-28{
+    background-color: var(--color-orange);
+}
+.forteenline >div.item-29{
+    background-color: var(--color-orange);
+}
+.forteenline >div.item-30{
+    background-color: var(--color-orange);
+}
+.forteenline >div.item-31{
+    background-color: var(--color-orange);
+}
+.forteenline >div.item-32{
+    background-color: var(--color-orange);
+}
+.forteenline >div.item-33{
+    background-color: var(--color-orange);
+}
+.forteenline >div.item-34{
+    background-color: var(--color-orange);
+}
+.forteenline >div.item-35{
+    background-color: var(--color-orange);
+}
+.forteenline >div.item-36{
+    background-color: var(--color-white);
+}
+.forteenline >div.item-37{
+    background-color: var(--color-white);
+}
+.forteenline >div.item-38{
+    background-color: var(--color-white);
+}
+.forteenline >div.item-39{
+    background-color: var(--color-white);
+}
+.forteenline >div.item-40{
+    background-color: var(--color-dark-orange);
+}
+.forteenline >div.item-41{
+    background-color: var(--color-black);
+}
+
+
+.fifteenline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+.fifteenline >div.item-18{
+    background-color: var(--color-black);
+}
+.fifteenline >div.item-19{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-20{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-21{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-22{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-23{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-24{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-25{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-26{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-27{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-28{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-29{
+    background-color: var(--color-orange);
+}
+.fifteenline >div.item-30{
+    background-color: var(--color-orange);
+}
+.fifteenline >div.item-31{
+    background-color: var(--color-orange);
+}
+.fifteenline >div.item-32{
+    background-color: var(--color-orange);
+}
+.fifteenline >div.item-33{
+    background-color: var(--color-orange);
+}
+.fifteenline >div.item-34{
+    background-color: var(--color-orange);
+}
+.fifteenline >div.item-35{
+    background-color: var(--color-orange);
+}
+.fifteenline >div.item-36{
+    background-color: var(--color-orange);
+}
+.fifteenline >div.item-37{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-38{
+    background-color: var(--color-white);
+}
+.fifteenline >div.item-39{
+    background-color: var(--color-dark-orange);
+}
+.fifteenline >div.item-40{
+    background-color: var(--color-black);
+}
+
+
+.sixteenline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+
+.sixteenline >div.item-19{
+    background-color: var(--color-black);
+}
+.sixteenline >div.item-20{
+    background-color: var(--color-white);
+}
+.sixteenline >div.item-21{
+    background-color: var(--color-white);
+}
+.sixteenline >div.item-22{
+    background-color: var(--color-white);
+}
+.sixteenline >div.item-23{
+    background-color: var(--color-white);
+}
+.sixteenline >div.item-24{
+    background-color: var(--color-white);
+}
+.sixteenline >div.item-25{
+    background-color: var(--color-white);
+}
+.sixteenline >div.item-26{
+    background-color: var(--color-purple);
+}
+.sixteenline >div.item-27{
+    background-color: var(--color-purple);
+}
+.sixteenline >div.item-28{
+    background-color: var(--color-purple);
+}
+.sixteenline >div.item-29{
+    background-color: var(--color-white);
+}
+.sixteenline >div.item-30{
+    background-color: var(--color-orange);
+}
+.sixteenline >div.item-31{
+    background-color: var(--color-orange);
+}
+.sixteenline >div.item-32{
+    background-color: var(--color-orange);
+}
+.sixteenline >div.item-33{
+    background-color: var(--color-orange);
+}
+.sixteenline >div.item-34{
+    background-color: var(--color-orange);
+}
+.sixteenline >div.item-35{
+    background-color: var(--color-orange);
+}
+.sixteenline >div.item-36{
+    background-color: var(--color-orange);
+}
+.sixteenline >div.item-37{
+    background-color: var(--color-white);
+}
+.sixteenline >div.item-38{
+    background-color: var(--color-dark-orange);
+}
+.sixteenline >div.item-39{
+    background-color: var(--color-black);
+}
+
+
+.seventeenline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+
+.seventeenline >div.item-19{
+    background-color: var(--color-black);
+}
+.seventeenline >div.item-20{
+    background-color: var(--color-white);
+}
+.seventeenline >div.item-21{
+    background-color: var(--color-white);
+}
+.seventeenline >div.item-22{
+    background-color: var(--color-white);
+}
+.seventeenline >div.item-23{
+    background-color: var(--color-white);
+}
+.seventeenline >div.item-24{
+    background-color: var(--color-white);
+}
+.seventeenline >div.item-25{
+    background-color: var(--color-white);
+}
+.seventeenline >div.item-26{
+    background-color: var(--color-purple);
+}
+.seventeenline >div.item-27{
+    background-color: var(--color-purple);
+}
+.seventeenline >div.item-28{
+    background-color: var(--color-purple);
+}
+.seventeenline >div.item-29{
+    background-color: var(--color-white);
+}
+.seventeenline >div.item-30{
+    background-color: var(--color-white);
+}
+.seventeenline >div.item-31{
+    background-color: var(--color-orange);
+}
+.seventeenline >div.item-32{
+    background-color: var(--color-orange);
+}
+.seventeenline >div.item-33{
+    background-color: var(--color-orange);
+}
+.seventeenline >div.item-34{
+    background-color: var(--color-orange);
+}
+.seventeenline >div.item-35{
+    background-color: var(--color-orange);
+}
+.seventeenline >div.item-36{
+    background-color: var(--color-orange);
+}
+.seventeenline >div.item-37{
+    background-color: var(--color-dark-orange);
+}
+.seventeenline >div.item-38{
+    background-color: var(--color-black);
+}
+
+
+.eighteenline {
+    display: grid;
+    background-color: var(--color-bgc);
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;   
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+}
+
+
+.eighteenline >div.item-19{
+    background-color: var(--color-black);
+}
+.eighteenline >div.item-20{
+    background-color: var(--color-white);
+}
+.eighteenline >div.item-21{
+    background-color: var(--color-white);
+}
+.eighteenline >div.item-22{
+    background-color: var(--color-white);
+}
+.eighteenline >div.item-23{
+    background-color: var(--color-white);
+}
+.eighteenline >div.item-24{
+    background-color: var(--color-white);
+}
+.eighteenline >div.item-25{
+    background-color: var(--color-white);
+}
+.eighteenline >div.item-26{
+    background-color: var(--color-white);
+}
+.eighteenline >div.item-27{
+    background-color: var(--color-white);
+}
+.eighteenline >div.item-28{
+    background-color: var(--color-white);
+}
+.eighteenline >div.item-29{
+    background-color: var(--color-white);
+}
+.eighteenline >div.item-30{
+    background-color: var(--color-white);
+}
+.eighteenline >div.item-31{
+    background-color: var(--color-orange);
+}
+.eighteenline >div.item-32{
+    background-color: var(--color-orange);
+}
+.eighteenline >div.item-33{
+    background-color: var(--color-orange);
+}
+.eighteenline >div.item-34{
+    background-color: var(--color-orange);
+}
+.eighteenline >div.item-35{
+    background-color: var(--color-orange);
+}
+.eighteenline >div.item-36{
+    background-color: var(--color-orange);
+}
+.eighteenline >div.item-37{
+    background-color: var(--color-black);
+}
