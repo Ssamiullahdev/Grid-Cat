@@ -35,13 +35,14 @@ body {
 
 .container  > div > div {
     /* border: 1px solid black; */
-    width: 17px;
-    /* color: #ffffff00;     */
+    width: 13px;
+    height: 13px;
+    color: #ffffff00;    
 }
 
-/* .container  > div {
+.container  > div {
     width: 100%;
-} */
+}
 
 .firstline {
     display: grid;
