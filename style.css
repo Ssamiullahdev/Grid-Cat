@@ -27,7 +27,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: blue;
+    background-color: rgb(24, 24, 99);
     color: var(--color-white);
     width: 900px;
     
